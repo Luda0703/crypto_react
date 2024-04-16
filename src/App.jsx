@@ -1,8 +1,18 @@
+import React from 'react';
+import { Layout } from 'antd';
+import AppHeader from './components/layout/AppHeader';
+import AppSider from './components/layout/AppSider';
+import AppContent from './components/layout/AppContent.jsx';
+
 function App() {
   return (
-    <div>
-      <h1>Hello React</h1>
-    </div>
+    <Layout>
+      <AppHeader/>
+      <Layout>
+        <AppSider/>
+        <AppContent/>
+      </Layout>
+    </Layout>
   )
 }
 
