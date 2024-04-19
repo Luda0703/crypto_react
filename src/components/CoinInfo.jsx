@@ -3,7 +3,7 @@ import { Typography, Flex } from "antd";
 
 export default function CoinInfo({ coin, withSymbol }) {
     return (
-        <Flex align="ctnter">
+        <Flex align="center">
         <img
           src={coin.icon}
           alt={coin.name}
