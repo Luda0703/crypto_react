@@ -32,7 +32,6 @@ export default function AppSider() {
                 withTag: true,
               },
               { title: 'Asset Amount', value: asset.amount, isPlain: true },
-              // { title: 'Difference', value: asset.growPercent },
             ]}
             renderItem={(item) => (
               <List.Item>
